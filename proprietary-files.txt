@@ -4,8 +4,8 @@
 vendor/firmware/libpn548ad_fw.so|88a35cebace27c3a93439972660f034b
 
 # RIL
-lib/libsec-ril.so|ee8f5ca436c8bc88caa863d063964652
-lib/libsec-ril-dsds.so|b48ba5378aee5a35dd71cfeeff7b96d8
+lib/libsec-ril.so|9186d9bf37eb377db28cb17b4572071070a898c2
+lib/libsec-ril-dsds.so|a261897ac6b6679443d5821b4e250c61a8568413
 
 # Sensors - J500HXXU1APE5_J500HOXE1APE5_J500HXXU1APC2
 lib/hw/sensors.msm8916.so|fb5fbe6b832c242e18ab0a5cb53ad91c
