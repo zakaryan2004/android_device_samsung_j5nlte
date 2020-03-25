@@ -12,16 +12,21 @@ LOCAL_PATH := device/samsung/j5nlte
 # Common overlay
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
 
-#NFC
-#PRODUCT_PACKAGES += \
-#	android.hardware.nfc@1.0-impl \
-#	android.hardware.nfc@1.0-service \
-#	com.android.nfc_extras \
-#	libnfc_nci \
-#	libnfc_nci_jni \
-#	nfc_nci.pn54x.msm8916 \
-#	NfcNci \
-#	Tag
+# NFC
+PRODUCT_PACKAGES += \
+	android.hardware.nfc@1.1 \
+	android.hardware.nfc@1.1-service \
+	vendor.nxp.nxpnfc@1.0 \
+	vendor.nxp.hardware.nfc@1.0-service
+
+PRODUCT_PACKAGES += \
+	com.android.nfc_extras \
+	com.gsma.services.nfc \
+	com.nxp.nfc.nq \
+	nfc_nci.nqx.default \
+	nqnfcee_access.xml \
+	NfcNci \
+	Tag
 
 # NFC configs
 PRODUCT_COPY_FILES += \
