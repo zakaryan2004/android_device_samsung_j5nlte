@@ -1,7 +1,7 @@
 # Samsung Package Version J500FNXXS1BQG2_J500FNEUR1BQC1_J500FNXXU1BQC1_HOME (unless otherwise specified and/or tagged)
 
 # NFC (From https://github.com/NXPNFCProject/NXPNFCC_FW/blob/master/pn548ad/32-bit/libpn548ad_fw.so)
-vendor/firmware/libpn548ad_fw.so|88a35cebace27c3a93439972660f034b
+vendor/firmware/libpn548ad_fw.so|f56c649b3704c8a098beae68ca0ba48b
 
 # RIL
 lib/libsec-ril.so|9186d9bf37eb377db28cb17b4572071070a898c2
